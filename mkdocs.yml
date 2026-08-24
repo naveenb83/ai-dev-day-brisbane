@@ -95,4 +95,12 @@ nav:
       - start-here/index.md
       - Navigate by level: start-here/navigate-by-level.md
       - Prerequisites: start-here/prerequisites.md
+  - Foundations (L100):
+      - foundations/index.md
+      - What is AI, really?: foundations/what-is-ai.md
+      - Large language models: foundations/large-language-models.md
+      - Prompts & completions: foundations/prompts-and-completions.md
+      - Embeddings & vectors: foundations/embeddings-and-vectors.md
+      - Why AI gets things wrong: foundations/why-ai-gets-things-wrong.md
+      - How Databricks does it: foundations/how-databricks-does-it.md
   - Tags: tags.md
