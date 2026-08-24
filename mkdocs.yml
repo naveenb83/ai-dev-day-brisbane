@@ -120,4 +120,11 @@ nav:
       - Multi-agent systems: building-with-ai/multi-agent-systems.md
       - Customizing a model: building-with-ai/model-customization.md
       - Building agents on Databricks: building-with-ai/building-agents-on-databricks.md
+  - Building software with AI:
+      - vibe-coding/index.md
+      - What is vibe coding?: vibe-coding/what-is-vibe-coding.md
+      - AI coding tools: vibe-coding/ai-coding-tools.md
+      - Best practices: vibe-coding/best-practices.md
+      - From prototype to production: vibe-coding/from-prototype-to-production.md
+      - Shipping on Databricks: vibe-coding/shipping-on-databricks.md
   - Tags: tags.md
