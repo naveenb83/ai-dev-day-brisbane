@@ -112,4 +112,12 @@ nav:
       - Genie: ask your data: working-with-ai/genie-ask-your-data.md
       - Structured output & tools: working-with-ai/structured-output-and-tools.md
       - Why we evaluate: working-with-ai/why-we-evaluate.md
+  - Building with AI (L300):
+      - building-with-ai/index.md
+      - What is an agent?: building-with-ai/what-is-an-agent.md
+      - The agent loop: building-with-ai/the-agent-loop.md
+      - Harnesses & meta-harnesses: building-with-ai/harnesses-and-meta-harnesses.md
+      - Multi-agent systems: building-with-ai/multi-agent-systems.md
+      - Customizing a model: building-with-ai/model-customization.md
+      - Building agents on Databricks: building-with-ai/building-agents-on-databricks.md
   - Tags: tags.md
