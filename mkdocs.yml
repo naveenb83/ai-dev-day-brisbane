@@ -56,8 +56,10 @@ extra_css:
 
 plugins:
   - search
-  - tags:
-      tags_file: tags.md
+  # The tag index renders where the `<!-- material/tags -->` marker sits
+  # (the Tags page). The old tags_file option is deprecated and aborts
+  # strict builds, so we rely on the marker instead.
+  - tags
 
 markdown_extensions:
   - abbr

@@ -32,7 +32,12 @@ NAV_MD_RE = re.compile(r"([A-Za-z0-9._/\-]+\.md)")
 
 
 def nav_referenced_md() -> set[str]:
-    text = MKDOCS.read_text(encoding="utf-8")
+    # Strip inline comments so a `.md` mentioned in a comment isn't mistaken
+    # for a nav reference.
+    lines = []
+    for line in MKDOCS.read_text(encoding="utf-8").splitlines():
+        lines.append(line.split("#", 1)[0])
+    text = "\n".join(lines)
     return {m.group(1) for m in NAV_MD_RE.finditer(text)}
 
 
