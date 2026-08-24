@@ -29,7 +29,7 @@ The AI capabilities are grouped under the name **Mosaic AI**.
 | Measure and trust the output | **MLflow** evaluation & tracing | Lab 6 |
 | Control who sees what data | **Unity Catalog** (governance) | throughout |
 
-*(Labs are added in a later section — this table is your forward map.)*
+
 
 ## Why "on your data" is the whole point
 
@@ -49,5 +49,5 @@ rest of this site builds towards it, one level at a time.
 ## See also
 
 - Back to **[Foundations overview](index.md)**.
-- Next level up: **Working with AI (L200)** *(added in a later section)*.
+- Next level up: **Working with AI (L200)**.
 - Glossary: **Mosaic AI**, **Foundation Model APIs**, **Unity Catalog**, **AI Playground**.

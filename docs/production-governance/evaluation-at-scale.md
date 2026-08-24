@@ -66,7 +66,7 @@ you improve without silently regressing.
 ## Try it
 
 :material-flask: **Lab 6** builds an eval set, runs judges, and traces results in
-MLflow. *(Labs added in a later section.)*
+MLflow.
 
 ## See also
 

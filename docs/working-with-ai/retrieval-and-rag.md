@@ -74,7 +74,7 @@ The whole pipeline is native to the platform:
 ## Try it
 
 :material-flask: **Lab 4** builds a small RAG assistant over sample docs with
-Vector Search. *(Labs added in a later section.)*
+Vector Search.
 
 ## See also
 

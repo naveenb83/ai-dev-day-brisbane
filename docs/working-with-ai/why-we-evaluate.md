@@ -64,11 +64,10 @@ Genie Space:
 
 ## Try it
 
-:material-flask: **Lab 6** evaluates and traces an agent with MLflow. *(Labs added
-in a later section.)*
+:material-flask: **Lab 6** evaluates and traces an agent with MLflow.
 
 ## See also
 
 - **[Retrieval & RAG](retrieval-and-rag.md)** — groundedness lives here.
-- **[Production & governance (L400)](../index.md)** — evaluation at scale. *(Added later.)*
+- **[Production & governance (L400)](../production-governance/index.md)** — evaluation at scale.
 - Glossary: **evaluation set**, **LLM-as-a-judge**, **groundedness**, **tracing**.

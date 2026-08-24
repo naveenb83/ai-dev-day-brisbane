@@ -34,7 +34,7 @@ Think of four gates between a prototype and production:
 - **Add tests** and get them passing (see [Best practices](best-practices.md)).
 - **Secure it:** secrets out of code, least-privilege data access, validate all
   input. For AI features, defend against
-  [prompt injection](../index.md) *(covered in L400)*.
+  [prompt injection](../production-governance/security.md) *(covered in L400)*.
 - **Right-size it:** will it hold up with real data volumes and real users?
 
 ### 2. Deploy — make it reachable and repeatable
@@ -48,7 +48,7 @@ Think of four gates between a prototype and production:
 - **Monitoring & logging:** know when it breaks *before* users tell you.
 - **For AI features:** ongoing **evaluation** and **tracing** to catch quality
   drift, plus **cost** tracking (model calls add up). This is the
-  **Production & Governance (L400)** discipline *(added in a later section)*.
+  **[Production & Governance (L400)](../production-governance/index.md)** discipline.
 - **A way to roll back** quickly when a change goes wrong.
 
 ### 4. Support — make it someone's job
@@ -87,5 +87,5 @@ Think of four gates between a prototype and production:
 
 - **[Best practices](best-practices.md)** — the habits that make hardening easy.
 - **[Shipping on Databricks](shipping-on-databricks.md)** — the deploy mechanics.
-- **Production & Governance (L400)** — operating AI for real. *(Added later.)*
+- **[Production & Governance (L400)](../production-governance/index.md)** — operating AI for real.
 - Glossary: **CI/CD**, **staging**, **rollback**, **monitoring**, **guardrails**.

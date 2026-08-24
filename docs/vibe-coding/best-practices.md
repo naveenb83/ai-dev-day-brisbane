@@ -88,6 +88,6 @@ README is what makes a prototype *maintainable* rather than a dead end.
 ## See also
 
 - **[From prototype to production](from-prototype-to-production.md)** — the next step.
-- **[Prompt Library](../index.md)** — writing the specs and asks. *(Added later.)*
-- **[Security & prompt injection](../index.md)** — for AI features. *(Added later.)*
+- **[Prompt Library](../prompt-library/index.md)** — writing the specs and asks.
+- **[Security & prompt injection](../production-governance/security.md)** — for AI features.
 - Glossary: **code review**, **version control**, **secret scope**, **test**, **hallucination**.

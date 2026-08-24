@@ -7,8 +7,7 @@ tags:
 # Glossary — Prompting
 
 The vocabulary of talking to models well. See the
-[Prompt Library](../index.md) for patterns and templates *(added in a later
-section)*.
+[Prompt Library](../prompt-library/index.md) for patterns and templates.
 
 **Prompt engineering**
 :   The craft of writing inputs that reliably get good outputs — role, context,

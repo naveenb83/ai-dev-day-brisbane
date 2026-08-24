@@ -14,8 +14,7 @@ loop of prompts and completions.
 
 The quality of the completion depends enormously on the prompt. Same model, vague
 prompt → vague answer; same model, clear prompt → useful answer. That's why
-there's a whole **[Prompt Library](../index.md)** in this site. *(Added in a later
-section.)*
+there's a whole **[Prompt Library](../prompt-library/index.md)** in this site.
 
 ## How it works
 
@@ -68,10 +67,10 @@ Playground transfers directly to your apps and agents.
 ## Try it
 
 :material-flask: **Lab 1** has you write a system prompt and watch how temperature
-changes the answer. *(Labs added in a later section.)*
+changes the answer.
 
 ## See also
 
 - **[Large language models](large-language-models.md)** — what's producing the completion.
-- **[Prompt Library](../index.md)** — how to write prompts that work. *(Added later.)*
+- **[Prompt Library](../prompt-library/index.md)** — how to write prompts that work.
 - Glossary: **prompt**, **completion**, **system prompt**, **temperature**, **max tokens**.

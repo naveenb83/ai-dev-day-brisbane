@@ -60,7 +60,7 @@ relationships, and example questions. Garbage metadata → confidently wrong SQL
 ## Try it
 
 :material-flask: **Lab 3** creates a Genie Space over sample tables and tunes it for
-accuracy. *(Labs added in a later section.)*
+accuracy.
 
 ## See also
 

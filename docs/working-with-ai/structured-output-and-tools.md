@@ -18,7 +18,7 @@ software:
    the result in its answer.
 
 Together they're the bridge from "nice demo" to "part of a system", and the first
-step toward [agents](../index.md).
+step toward [agents](../building-with-ai/index.md).
 
 ## How it works
 
@@ -60,7 +60,7 @@ core mechanic of agents.
   model is allowed to call — so tool use inherits your permissions and is
   auditable.
 - The **Mosaic AI Agent Framework** builds on exactly this to create agents that
-  combine retrieval, tools and reasoning (the [L300](../index.md) material).
+  combine retrieval, tools and reasoning (the [L300](../building-with-ai/index.md) material).
 
 ## Pitfalls
 
@@ -73,6 +73,6 @@ core mechanic of agents.
 
 ## See also
 
-- **[Building with AI (L300)](../index.md)** — agents built on tools. *(Added later.)*
+- **[Building with AI (L300)](../building-with-ai/index.md)** — agents built on tools.
 - **[Prompting that works](prompting-that-works.md)** — asking for a format.
 - Glossary: **structured output**, **JSON schema**, **tool use**, **function calling**, **UC function**.

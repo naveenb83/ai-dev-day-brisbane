@@ -30,7 +30,7 @@ Everything follows one simple pattern:
     Core AI concepts, grouped from foundations to production. Read top-to-bottom,
     or jump to what you need.
 
-    [:octicons-arrow-right-24: Start with Foundations](#find-your-level)
+    [:octicons-arrow-right-24: Start with Foundations](foundations/index.md)
 
 -   :material-book-alphabet: **Glossary**
 
@@ -39,7 +39,7 @@ Everything follows one simple pattern:
     Every term in plain language, each with a "on Databricks" note. Your quick
     reference when a word trips you up.
 
-    *(Added in a later section.)*
+    [:octicons-arrow-right-24: Open the glossary](glossary/index.md)
 
 -   :material-lightbulb-on: **Prompt library**
 
@@ -48,7 +48,7 @@ Everything follows one simple pattern:
     How to write a prompt that actually works, ready-to-use templates, good vs
     bad examples, and how to get AI to write prompts *for* you.
 
-    *(Added in a later section.)*
+    [:octicons-arrow-right-24: Open the prompt library](prompt-library/index.md)
 
 -   :material-flask: **Hands-on labs**
 
@@ -57,7 +57,7 @@ Everything follows one simple pattern:
     Guided exercises you run in your own Databricks workspace — from your first
     prompt to building and evaluating an agent.
 
-    *(Added in a later section.)*
+    [:octicons-arrow-right-24: Go to the labs](labs/index.md)
 
 </div>
 
@@ -77,12 +77,16 @@ you're comfortable and move up.
     What AI, machine learning and generative AI actually are. No maths, no
     jargon. If AI still feels like magic, start here.
 
+    [:octicons-arrow-right-24: Foundations](foundations/index.md)
+
 -   <span class="lvl lvl-200">L200</span> **Working with AI**
 
     ---
 
     Prompting, retrieval (RAG), vector search, structured outputs, and why we
     *evaluate* AI. The "I can use this at work" level.
+
+    [:octicons-arrow-right-24: Working with AI](working-with-ai/index.md)
 
 -   <span class="lvl lvl-300">L300</span> **Building with AI**
 
@@ -91,12 +95,16 @@ you're comfortable and move up.
     Agents, tools, memory, and multi-agent systems — and the frameworks that run
     them. For people who'll build things.
 
+    [:octicons-arrow-right-24: Building with AI](building-with-ai/index.md)
+
 -   <span class="lvl lvl-400">L400</span> **Production & governance**
 
     ---
 
     Evaluation at scale, observability, guardrails, security, and cost. What it
     takes to run AI for real, safely.
+
+    [:octicons-arrow-right-24: Production & Governance](production-governance/index.md)
 
 </div>
 
@@ -109,4 +117,4 @@ you're comfortable and move up.
 ## Running the day?
 
 If you're facilitating, there's a **run-of-day, timings and an attendee prep
-checklist** in the Facilitator Guide *(added in a later section)*.
+checklist** in the **[Facilitator Guide](facilitator/index.md)**.

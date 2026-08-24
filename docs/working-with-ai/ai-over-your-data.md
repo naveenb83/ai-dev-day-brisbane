@@ -69,7 +69,7 @@ continuously.
 ## Try it
 
 :material-flask: **Lab 2** runs `ai_classify` and `ai_summarize` over a sample
-table. *(Labs added in a later section.)*
+table.
 
 ## See also
 
