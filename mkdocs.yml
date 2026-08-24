@@ -148,4 +148,12 @@ nav:
       - Governance, safety & security: glossary/governance-safety-security-terms.md
       - Cost, performance & serving: glossary/cost-performance-serving-terms.md
       - Databricks & Mosaic AI terms: glossary/databricks-terms.md
+  - Prompt Library:
+      - prompt-library/index.md
+      - Anatomy of a good prompt: prompt-library/anatomy-of-a-good-prompt.md
+      - Prompt patterns: prompt-library/prompt-patterns.md
+      - Templates: prompt-library/templates.md
+      - Good vs bad examples: prompt-library/good-vs-bad-examples.md
+      - Meta-prompting: prompt-library/meta-prompting.md
+      - Databricks-flavoured prompts: prompt-library/databricks-prompts.md
   - Tags: tags.md
