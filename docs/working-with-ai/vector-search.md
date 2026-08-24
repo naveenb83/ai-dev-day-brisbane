@@ -53,8 +53,7 @@ matters for both relevance and governance.
 
 ## Try it
 
-:material-flask: **Lab 4** creates a Vector Search index and queries it. *(Labs
-added in a later section.)*
+:material-flask: **Lab 4** creates a Vector Search index and queries it.
 
 ## See also
 

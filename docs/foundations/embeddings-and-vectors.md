@@ -44,7 +44,7 @@ This one idea powers a lot:
 - **Recommendations** ("more like this").
 - **RAG** — retrieval-augmented generation — where we find the most relevant
   chunks of *your* documents and hand them to an LLM so it can answer using your
-  content. (You'll see RAG properly at [L200](../index.md).)
+  content. (You'll see RAG properly at [L200](../working-with-ai/index.md).)
 
 !!! note "Where do the numbers come from?"
     A special model called an **embedding model** produces them. It's trained so

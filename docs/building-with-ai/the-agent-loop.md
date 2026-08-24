@@ -78,7 +78,7 @@ The pieces that make the loop work:
 ## Try it
 
 :material-flask: **Lab 5** builds a small tool-using agent and watches the loop in
-MLflow traces. *(Labs added in a later section.)*
+MLflow traces.
 
 ## See also
 

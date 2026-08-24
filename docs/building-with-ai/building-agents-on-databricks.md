@@ -53,8 +53,8 @@ Two things are true at every stage:
 
 An agent that works in a notebook isn't done. Taking it to production is a
 discipline of its own — evaluation, guardrails, monitoring, cost control — covered
-in **Production & Governance (L400)** *(added in a later section)*, and the app
-around it is covered in **Building software with AI** *(added in a later section)*.
+in **[Production & Governance (L400)](../production-governance/index.md)**, and the app
+around it is covered in **[Building software with AI](../vibe-coding/index.md)**.
 
 ## Pitfalls
 
@@ -67,7 +67,7 @@ around it is covered in **Building software with AI** *(added in a later section
 ## Try it
 
 :material-flask: **Lab 5** builds an agent with tools; **Lab 6** evaluates and traces
-it. *(Labs added in a later section.)*
+it.
 
 ## See also
 

@@ -14,7 +14,7 @@ and what the output should look like — and you get great work. Leave it vague 
 you get vague work.
 
 This page is the *practical* version; the full patterns and copy-paste templates
-live in the **[Prompt Library](../index.md)** *(added in a later section)*.
+live in the **[Prompt Library](../prompt-library/index.md)**.
 
 ## How it works — the anatomy of a strong prompt
 
@@ -70,10 +70,10 @@ Two techniques worth knowing by name:
 ## Try it
 
 :material-flask: **Lab 1** builds a strong prompt step by step and compares it to a
-weak one. *(Labs added in a later section.)*
+weak one.
 
 ## See also
 
-- **[Prompt Library](../index.md)** — patterns, templates, meta-prompting. *(Added later.)*
+- **[Prompt Library](../prompt-library/index.md)** — patterns, templates, meta-prompting.
 - **[Prompts & completions](../foundations/prompts-and-completions.md)** — the L100 basics.
 - Glossary: **few-shot**, **chain-of-thought**, **system prompt**.

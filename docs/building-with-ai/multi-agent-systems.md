@@ -73,7 +73,7 @@ review** (one agent critiques another's work to improve quality).
 ## Try it
 
 :material-flask: **Lab 5** starts with a single agent; a stretch goal adds a second
-specialist behind a supervisor. *(Labs added in a later section.)*
+specialist behind a supervisor.
 
 ## See also
 

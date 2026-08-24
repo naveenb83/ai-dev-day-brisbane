@@ -53,7 +53,7 @@ turns "it works on my machine" into something a team can run.
 
 The hands-on labs build the *pieces* — prompts, AI Functions, Genie, RAG, an
 agent, evaluation. Shipping is how you'd wrap those into something durable
-afterwards. *(Labs added in a later section.)*
+afterwards.
 
 ## Pitfalls
 
@@ -70,5 +70,5 @@ afterwards. *(Labs added in a later section.)*
 
 - **[From prototype to production](from-prototype-to-production.md)** — the why and the journey.
 - **[Building agents on Databricks](../building-with-ai/building-agents-on-databricks.md)** — deploying agents.
-- **Production & Governance (L400)** — operating it well. *(Added later.)*
+- **[Production & Governance (L400)](../production-governance/index.md)** — operating it well.
 - Glossary: **Databricks Apps**, **Asset Bundle**, **Model Serving**, **CI/CD**, **secret scope**.

@@ -41,7 +41,7 @@ existing code.
     show an idea; an engineer can move several times faster on the boring parts.
     The skill that matters shifts from *typing code* to **describing intent
     clearly and reviewing output critically** — which is why the
-    [Prompt Library](../index.md) matters here too. *(Added in a later section.)*
+    [Prompt Library](../prompt-library/index.md) matters here too.
 
 ## How Databricks does it
 

@@ -87,7 +87,7 @@ governed data — which is where the real value shows up in later sections.
 ## Try it
 
 :material-flask: In **Lab 1** you'll send your first prompts in the AI Playground
-and watch tokens, settings and cost in action. *(Labs added in a later section.)*
+and watch tokens, settings and cost in action.
 
 ## See also
 
