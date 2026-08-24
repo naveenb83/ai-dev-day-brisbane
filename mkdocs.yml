@@ -165,4 +165,12 @@ nav:
       - Lab 4 — RAG with Vector Search: labs/lab-4-rag-vector-search.md
       - Lab 5 — Build an agent: labs/lab-5-build-an-agent.md
       - Lab 6 — Evaluate & trace: labs/lab-6-evaluate-trace.md
+  - Facilitator Guide:
+      - facilitator/index.md
+      - Run of day: facilitator/run-of-day.md
+      - Attendee prep: facilitator/attendee-prep.md
+      - Facilitation tips: facilitator/facilitation-tips.md
+  - Resources:
+      - resources/index.md
+      - Cheat-sheets: resources/cheat-sheets.md
   - Tags: tags.md
