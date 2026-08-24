@@ -103,4 +103,13 @@ nav:
       - Embeddings & vectors: foundations/embeddings-and-vectors.md
       - Why AI gets things wrong: foundations/why-ai-gets-things-wrong.md
       - How Databricks does it: foundations/how-databricks-does-it.md
+  - Working with AI (L200):
+      - working-with-ai/index.md
+      - Prompting that works: working-with-ai/prompting-that-works.md
+      - Retrieval & RAG: working-with-ai/retrieval-and-rag.md
+      - Vector search: working-with-ai/vector-search.md
+      - AI over your data: working-with-ai/ai-over-your-data.md
+      - Genie: ask your data: working-with-ai/genie-ask-your-data.md
+      - Structured output & tools: working-with-ai/structured-output-and-tools.md
+      - Why we evaluate: working-with-ai/why-we-evaluate.md
   - Tags: tags.md
