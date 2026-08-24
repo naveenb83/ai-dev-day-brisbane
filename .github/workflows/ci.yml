@@ -1,0 +1,56 @@
+name: build-and-deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build site (strict) + validate docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install toolchain
+        run: pip install -r requirements.txt
+
+      - name: Validate docs (nav, orphans, links)
+        run: python3 tools/check_docs.py
+
+      - name: Build site (strict)
+        run: mkdocs build --strict
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    # Only runs on main AND once you opt in by setting repository variable
+    # PUBLISH_PAGES=true (Settings -> Secrets and variables -> Actions -> Variables)
+    # and enabling Pages (Settings -> Pages -> Source: GitHub Actions).
+    # Until then this job is skipped, so no failing runs while the repo is private.
+    if: github.ref == 'refs/heads/main' && vars.PUBLISH_PAGES == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

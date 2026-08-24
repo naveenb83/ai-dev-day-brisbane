@@ -1,0 +1,30 @@
+/* Level badges: <span class="lvl lvl-100">L100</span> */
+.lvl {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: 1em;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: #fff;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.lvl-100 { background: #2e7d32; } /* green  — foundations */
+.lvl-200 { background: #1565c0; } /* blue   — working with AI */
+.lvl-300 { background: #6a1b9a; } /* purple — building */
+.lvl-400 { background: #c62828; } /* red    — production & governance */
+
+/* Slightly brighter in dark mode for contrast */
+[data-md-color-scheme="slate"] .lvl-100 { background: #43a047; }
+[data-md-color-scheme="slate"] .lvl-200 { background: #1e88e5; }
+[data-md-color-scheme="slate"] .lvl-300 { background: #8e24aa; }
+[data-md-color-scheme="slate"] .lvl-400 { background: #e53935; }
+
+/* Give the card grid a touch more breathing room */
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid > .card {
+  border-radius: 0.4rem;
+}
