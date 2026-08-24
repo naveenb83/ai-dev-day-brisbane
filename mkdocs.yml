@@ -137,4 +137,15 @@ nav:
       - Governance: production-governance/governance.md
       - Cost & performance: production-governance/cost-and-performance.md
       - Deployment & serving: production-governance/deployment-and-serving.md
+  - Glossary:
+      - glossary/index.md
+      - Core AI & ML concepts: glossary/core-concepts.md
+      - LLM mechanics: glossary/llm-mechanics.md
+      - Prompting: glossary/prompting-terms.md
+      - RAG & search: glossary/rag-and-search-terms.md
+      - Agents: glossary/agent-terms.md
+      - Evaluation & LLMOps: glossary/evaluation-llmops-terms.md
+      - Governance, safety & security: glossary/governance-safety-security-terms.md
+      - Cost, performance & serving: glossary/cost-performance-serving-terms.md
+      - Databricks & Mosaic AI terms: glossary/databricks-terms.md
   - Tags: tags.md
