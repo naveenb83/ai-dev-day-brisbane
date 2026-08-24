@@ -127,4 +127,14 @@ nav:
       - Best practices: vibe-coding/best-practices.md
       - From prototype to production: vibe-coding/from-prototype-to-production.md
       - Shipping on Databricks: vibe-coding/shipping-on-databricks.md
+  - Production & Governance (L400):
+      - production-governance/index.md
+      - Evaluation at scale: production-governance/evaluation-at-scale.md
+      - Observability & LLMOps: production-governance/observability-and-llmops.md
+      - Guardrails & safety: production-governance/guardrails-and-safety.md
+      - Security: production-governance/security.md
+      - Responsible AI: production-governance/responsible-ai.md
+      - Governance: production-governance/governance.md
+      - Cost & performance: production-governance/cost-and-performance.md
+      - Deployment & serving: production-governance/deployment-and-serving.md
   - Tags: tags.md
