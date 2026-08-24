@@ -43,6 +43,27 @@ def all_docs_md() -> set[str]:
     }
 
 
+# A nav item line: `- Title: path.md`. If the title is unquoted and itself
+# contains a colon, YAML parsing breaks ("mapping values are not allowed here").
+NAV_ITEM_RE = re.compile(r"^\s*-\s+(?P<title>.+?):\s+\S+\.md\s*$")
+
+
+def check_nav_unquoted_colons() -> list[str]:
+    """Catch nav titles with an unquoted colon that would break YAML parsing."""
+    errors: list[str] = []
+    for i, line in enumerate(MKDOCS.read_text(encoding="utf-8").splitlines(), 1):
+        m = NAV_ITEM_RE.match(line)
+        if not m:
+            continue
+        title = m.group("title").strip()
+        if title.startswith(('"', "'")):
+            continue  # quoted — safe
+        if ":" in title:
+            errors.append(f"  mkdocs.yml:{i}: unquoted colon in nav title "
+                          f"'{title}' — wrap the title in quotes")
+    return errors
+
+
 def check_internal_links() -> list[str]:
     errors: list[str] = []
     for md in sorted(DOCS.rglob("*.md")):
@@ -90,6 +111,11 @@ def main() -> int:
     if broken:
         problems.append("Broken internal links:")
         problems += broken
+
+    nav_colons = check_nav_unquoted_colons()
+    if nav_colons:
+        problems.append("Nav titles with unquoted colons (break YAML):")
+        problems += nav_colons
 
     if problems:
         print("DOCS CHECK FAILED\n")

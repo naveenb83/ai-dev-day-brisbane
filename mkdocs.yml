@@ -109,7 +109,7 @@ nav:
       - Retrieval & RAG: working-with-ai/retrieval-and-rag.md
       - Vector search: working-with-ai/vector-search.md
       - AI over your data: working-with-ai/ai-over-your-data.md
-      - Genie: ask your data: working-with-ai/genie-ask-your-data.md
+      - "Genie: ask your data": working-with-ai/genie-ask-your-data.md
       - Structured output & tools: working-with-ai/structured-output-and-tools.md
       - Why we evaluate: working-with-ai/why-we-evaluate.md
   - Building with AI (L300):
