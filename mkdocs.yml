@@ -156,4 +156,13 @@ nav:
       - Good vs bad examples: prompt-library/good-vs-bad-examples.md
       - Meta-prompting: prompt-library/meta-prompting.md
       - Databricks-flavoured prompts: prompt-library/databricks-prompts.md
+  - Hands-on Labs:
+      - labs/index.md
+      - Lab 0 — Setup check: labs/lab-0-setup.md
+      - Lab 1 — First prompts: labs/lab-1-playground.md
+      - Lab 2 — AI on your data: labs/lab-2-ai-functions.md
+      - Lab 3 — Ask your data (Genie): labs/lab-3-genie.md
+      - Lab 4 — RAG with Vector Search: labs/lab-4-rag-vector-search.md
+      - Lab 5 — Build an agent: labs/lab-5-build-an-agent.md
+      - Lab 6 — Evaluate & trace: labs/lab-6-evaluate-trace.md
   - Tags: tags.md
