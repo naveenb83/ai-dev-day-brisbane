@@ -1,0 +1,98 @@
+site_name: AI Dev Day Brisbane
+site_description: >-
+  An L100 to L400 AI literacy encyclopedia, glossary, prompt library and
+  hands-on Databricks labs for mixed-audience client dev days.
+site_author: naveenb83
+# Update this to the public URL once the repo is made public and Pages is enabled.
+site_url: https://naveenb83.github.io/ai-dev-day-brisbane/
+
+repo_name: naveenb83/ai-dev-day-brisbane
+repo_url: https://github.com/naveenb83/ai-dev-day-brisbane
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/naveenb83/ai-dev-day-brisbane
+
+# Navigation is extended one section per content PR.
+nav:
+  - Home: index.md
+  - Start here:
+      - start-here/index.md
+      - Navigate by level: start-here/navigate-by-level.md
+      - Prerequisites: start-here/prerequisites.md
+  - Tags: tags.md

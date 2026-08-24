@@ -1,0 +1,5 @@
+# Docs site toolchain — install with:  pip install -r requirements.txt
+mkdocs-material>=9.5
+pymdown-extensions>=10.7
+# Optional: social cards / image processing (needs system cairo + pngquant)
+# mkdocs-material[imaging]
