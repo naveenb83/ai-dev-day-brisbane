@@ -151,6 +151,21 @@ nav:
       - Lab 4 — RAG with Vector Search: labs/lab-4-rag-vector-search.md
       - Lab 5 — Build an agent: labs/lab-5-build-an-agent.md
       - Lab 6 — Evaluate & trace: labs/lab-6-evaluate-trace.md
+  - Industry App Labs:
+      - industry-apps/index.md
+      - Automotive & Mobility: industry-apps/automotive-mobility.md
+      - Cross-Industry (Starter): industry-apps/cross-industry.md
+      - Energy & Utilities: industry-apps/energy-utilities.md
+      - Financial Services: industry-apps/financial-services.md
+      - Healthcare: industry-apps/healthcare.md
+      - Manufacturing: industry-apps/manufacturing.md
+      - Media & Entertainment: industry-apps/media.md
+      - Mining: industry-apps/mining.md
+      - Public Sector: industry-apps/public-sector.md
+      - Retail: industry-apps/retail.md
+      - Superannuation: industry-apps/superannuation.md
+      - Telco: industry-apps/telco.md
+      - Travel & Hospitality: industry-apps/travel.md
   - Reference:
       - Glossary:
           - glossary/index.md
